@@ -2,11 +2,12 @@
 Machine learning models for predicting cancer patient survival based on clinical sequencing data.
 
 ・リポジトリの構造
-├── data/                 # データセットを保存するディレクトリ（現在は含まれていません）
-├── poster/               # プロジェクトの概要を説明するポスター
-├── notebooks/            # Jupyter Notebooks（コード例を含む）
-├── README.md             # プロジェクトの概要
-└── requirements.txt      # 依存関係（現在は使用していません）
+├── .gitignore                                  # Git ignore file
+├── README.md                                   # プロジェクトの概要
+├── msk_met_2021_clinical_data/                 # データセットを保存するディレクトリ（現在は含まれていません）
+├── notebooks/                                  # Jupyter Notebooks（コード例を含む）
+├── poster/                                     # プロジェクトの概要を説明するポスター
+└── requirements.txt                            # 依存関係（現在は使用していません）
 
 ・プロジェクトの概要
 このプロジェクトは、がん患者の寿命を予測するために複数の機械学習モデルを使用し、その予測精度を比較することを目的としています。モデルにはXGBoostやRandomForestなどが含まれており、臨床データに基づく個別化医療の基礎を築くことを目指しています。
