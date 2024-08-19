@@ -4,10 +4,10 @@ Machine learning models for predicting cancer patient survival based on clinical
 ・リポジトリの構造
 ├── .gitignore                                  # Git ignore file
 ├── README.md                                   # プロジェクトの概要
-├── msk_met_2021_clinical_data/                 # データセットを保存するディレクトリ（現在は含まれていません）
+├── msk_met_2021_clinical_data/                 # データセットを保存するディレクトリ
 ├── notebooks/                                  # Jupyter Notebooks（コード例を含む）
 ├── poster/                                     # プロジェクトの概要を説明するポスター
-└── requirements.txt                            # 依存関係（現在は使用していません）
+└── requirements.txt                            # 依存関係
 
 ・プロジェクトの概要
 このプロジェクトは、がん患者の寿命を予測するために複数の機械学習モデルを使用し、その予測精度を比較することを目的としています。モデルにはXGBoostやRandomForestなどが含まれており、臨床データに基づく個別化医療の基礎を築くことを目指しています。
